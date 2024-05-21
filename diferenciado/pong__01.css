@@ -1,0 +1,9 @@
+body {
+  background: radial-gradient(#f9d349,20%, #d57e12);
+}
+
+#stage {
+    position: absolute;
+
+    outline: 5px solid white;
+}
