@@ -1,0 +1,252 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+	@import 'https://fonts.googleapis.com/css?family=Lato';
+	body{
+	margin:0 0 0 0;
+	background: radial-gradient(#f9d349,20%, #d57e12);
+		}
+	.container{
+	position:absolute;
+	width:25vw;
+	height:20vw;
+	background:#00c1ff;
+	left:0;right:0;bottom:0; top:0;
+	margin:auto;
+	border-bottom-left-radius:0.8vw;
+	border-bottom-right-radius:0.8vw;
+	box-shadow:0px 4px 14px rgba(0,0,0,0.3);
+		}
+	.container:before{
+	content:"";
+	left:0;
+	position:absolute;
+	top:-3vw;
+	width:25vw;
+	height:3vw;
+	background:url(https://i.imgur.com/HSNhzvW.png);
+	background-size:99%;
+	background-position: 100% 100%;
+	background-repeat: repeat-x;
+	animation:wave 4s linear infinite ;
+	z-index:0;
+		}
+	.profileImg{
+	width:7vw;
+	height:7vw;
+	margin-left:-3.5vw;
+	margin-top:-2vw;
+	z-index:99;
+	background:url(https://s-media-cache-ak0.pinimg.com/236x/9f/e7/1a/9fe71aa51598347fec20431847ab86a7.jpg);
+	background-position:50% 20%;
+	background-size:90%;
+	border-radius:50%;
+	position:Relative;
+	box-shadow:0px 0px 0px 0.2vw #33bdff;
+	float:left;
+	z-index:999;
+		}
+	.bubbler{
+		position:absolute;
+	width:25vw;
+	height:20vw;
+	left:0;right:0;bottom:0; top:0;
+	margin:auto;
+	z-index:0;
+		}
+	.nameContainer{
+	width:20vw;
+	height:5vw;
+	float:right;
+	margin-top:0.5vw;
+		}
+	.nameContainer .name{
+	font-family: 'Roboto', sans-serif;
+	color:#FFF;
+	text-transform:uppercase;
+	font-size:1.2vw;
+	margin:0.2vw 0 0 0;
+		}
+	.nameContainer .work{
+	font-family: 'Roboto', sans-serif;
+	color:#FFF;
+	text-transform:uppercase;
+	font-size:0.6vw;
+	margin-top:0.2vw;
+		}
+	.info{
+	margin-left:2vw;
+	margin-top:7vw;
+	width:18vw;
+	font-size:0.8vw;
+	font-family: 'Lato', sans-serif;
+	color:#FFF;
+		}
+	.social{
+	height:2vw;
+	margin-left:-0.8vw;
+	width:15vw;
+		}
+		.social .icon{
+		width:1.2vw;
+		height:1.2vw;
+		margin-left:0.8vw;
+		margin-top:0.4vw;
+		fill:#FFF;
+		cursor:pointer;
+			}
+		.social .youtube:hover {
+		fill:#d71e17;
+			}
+		.social .facebook:hover{
+			fill:#3B5998;
+			}
+		.social .twitter:hover{
+			fill:#4099FF;
+			}
+		.social .earth:hover{
+			fill:#397628;
+			}
+	@keyframes wave {
+		from {
+			background-position:0% 100%;
+		}
+		to {
+			background-position: -25vw 100%;
+		}
+	}
+		@keyframes bubble1 {
+		to {
+			transform:scale(0,0);
+			margin-top:-10vw;
+			background:#FFF;
+		}
+	}
+			@keyframes bubble2 {
+		to {
+			transform:scale(0,0);
+			margin-top:-12vw;
+			background:#FFF;
+		}
+	}
+			@keyframes bubble3 {
+		to {
+			transform:scale(0,0);
+			margin-top:-8vw;
+			background:#FFF;
+		}
+	}
+	.ss{
+	position:Absolute
+		}
+	.bubble{
+		background:#33bdff;
+		position:absolute;
+		top:0;
+		z-index:0;
+		border-radius:50%;
+		}
+		.projects{
+			width:25vw;
+			background:orange;
+			position:Absolute;
+			bottom:0;
+			height:6vw;
+			border-bottom-left-radius:0.8vw;
+			border-bottom-right-radius:0.8vw;
+			overflow:hidden;
+			}
+		.arrow{
+		width:3.125vw;
+		height:6vw;
+		position:Absolute;
+		background:blue;
+			}
+		.arrowRight{
+		right:0;
+		border-bottom-right-radius:0.8vw;
+					    background: -webkit-linear-gradient(right,#33bdff, transparent); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,#33bdff, transparent); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,#33bdff, transparent); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(right,#33bdff, transparent); /* Standard syntax */
+			}
+		.arrowLeft{
+			border-bottom-left-radius:0.8vw;
+			    background: -webkit-linear-gradient(left,#33bdff, transparent); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left,#33bdff, transparent); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left,#33bdff, transparent); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left,#33bdff, transparent); /* Standard syntax */
+			}
+		.ProImage{
+			width:6.25vw;
+			height:6vw;
+			float:left;
+			}
+			div.ProImage:nth-of-type(3){
+			background:url(http://attackofthefanboy.com/wp-content/uploads/2016/01/uncharted-4-nathan-drake.jpg);
+						background-size:cover;
+				}
+						div.ProImage:nth-of-type(4){
+			background:url(http://media1.gameinformer.com/filestorage/CommunityServer.Components.SiteFiles/imagefeed/featured/sony2016/naughtydog/uncharted4/review/unchartedreinerreivew.jpg);
+						background-size:cover;
+				}
+						div.ProImage:nth-of-type(5){
+			background:url(http://www.unchartedthegame.com/wp/wp-content/uploads/2016/04/U4-MAD-volcano.jpg);
+						background-size:cover;
+				}
+						div.ProImage:nth-of-type(6){
+			background:url(http://icdn2.digitaltrends.com/image/uncharted-4-0018-800x450-c.jpg);
+						background-size:cover;
+				}
+				button{
+				    width: 70px;
+
+				    padding: 15px 0;
+				    text-align: center;
+				    margin: 20px 10px;
+				    border-radius: 25px;
+				    font-weight: bold;
+				    border: 2px solid #41BEFF;
+				    background: black;
+				    color: white;
+				    cursor: pointer;
+				    position: relative;
+				    overflow: hidden;
+				}
+
+				button:hover span{
+				  width: 100%;
+
+				}
+				button:hover{
+				  border: none;
+
+				}
+
+				.span1{
+				  background: orange;
+				  height: 100%;
+				  width: 0%;
+				  border-radius: 25px;
+				  position: absolute;
+				  left: 0;
+				  bottom: 0;
+				  z-index: -1;
+				  transition: 0.5s;
+
+				}
+
+				button2{
+						width: 50px;
+						padding: 5px 2px;
+						left: 100px;
+						bottom: 30px;
+						text-align: center;
+						margin: 25px 10px;
+						border-radius: 20px;
+						font-weight: bold;
+						border: 5px solid black;
+						background: black;
+						color: white;
+						cursor: pointer;
+						position: relative;
+						overflow: hidden;
+				}
